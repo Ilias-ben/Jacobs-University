@@ -13,10 +13,9 @@ int main(){
     int n,i;
     printf("Enter an integer ");
     scanf("%d",&n);
-    for (i=0 ;i < n; i++){             // Runs the program till n 
-        printf("%c,",ch);                 
-        ch= ch -1;                    // Deducts the value of ch each time
+    for (i=1 ;i <= n; i++){             // Runs the program till n 
+        printf("%c-%d, ",ch,i);                 
+                            
         }
     return 0;
 }
-
